@@ -17,6 +17,11 @@ In this challenge we will achieve:
 2. Create a Logistic Regression Model with the Original Data
 3. Predict a Logistic Regression Model with Resampled Training Data
 With all the information provided we will be able to write a Credit Risk Analysis Report.
+
+The Credit Report 
+The purpose of this analysis is to evaluate the performance of logistic regression models in predicting credit risk. The dataset used contains information about loan applicants, including various features such as income, debt-to-income ratio, and credit history. The target variable is the loan_status, which indicates whether a loan is classified as high risk (1) or healthy (0).
+
+Two versions of the logistic regression model are evaluated: one using the original data and another using resampled data. The resampling technique employed is RandomOverSampler from the imbalanced-learn library, which addresses the class imbalance issue in the dataset
  
 ## Summary
 The credit risk analysis project utilizes Python as the programming language and various libraries such as Pandas, NumPy, scikit-learn, and imbalanced-learn. The analysis is conducted in a Jupyter Notebook environment, allowing for interactive coding and documentation. The project's purpose is to evaluate the performance of logistic regression models in predicting credit risk using the lending data provided. Detailed instructions are provided to replicate the analysis and generate a README.md file summarizing the project.
